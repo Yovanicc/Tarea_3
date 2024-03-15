@@ -1,0 +1,113 @@
+.padre
+{
+   background-color: aquamarine;
+   display: grid;
+   grid-template-columns: 50% 20% auto auto  ; 
+   grid-template-rows: 250px 100px  auto ;
+   justify-content: space-between;
+  /* align-items: center;*/
+}  
+.hijo
+{
+    background-color: blue;
+    /*width: 150px;
+    height: 150px;*/
+    border-style: solid;
+    border-color: black;
+    font-size: 50px;
+    
+}
+.hijo1{
+    background-color: aqua;
+   
+    border-style: solid;
+    border-color: black;
+    font-size: 50px;
+    grid-column: 1/5;
+}
+.hijo2
+{
+    background-color:yellowgreen;
+   
+    border-style: solid;
+    border-color: black;
+    font-size: 50px;
+    grid-column: 1/3; 
+}
+.hijo4
+{
+    background-color: yellowgreen;
+   
+    border-style: solid;
+    border-color: black;
+    font-size: 50px;
+    grid-row: 3/4; 
+}
+.hijo5{
+    background-color: yellowgreen;
+    
+    border-style: solid;
+    border-color: black;
+    font-size: 50px;
+    grid-row: 4/4; 
+}
+
+.hijo6{
+    background-color: coral;
+    
+    border-style: solid;
+    border-color: black;
+    font-size: 50px;
+    grid-row: 4/4; 
+}
+
+.hijo7{
+    background-color: coral;
+    
+    border-style: solid;
+    border-color: black;
+    font-size: 50px;
+    grid-row: 3/4; 
+}
+
+.madre{
+    background-color: beige;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: crimson;
+    
+}
+
+.contenedor2 .caja {
+    flex-basis: 30%;
+    background-color: bisque;
+    border-color: darkkhaki;
+    padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 20px;
+}
+
+.contenedor3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: yellow;
+}
+
+.contenedor3 .caja {
+    background-color: green;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.mb-3{
+    background-color: bisque;
+    
+}
